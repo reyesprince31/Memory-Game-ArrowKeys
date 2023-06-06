@@ -12,7 +12,7 @@ $(document).ready(function() {
         if (!gameStart){
             $('#level-title').text(`Level ${level}`);
             nextSequence();
-            
+            gameStart = true;
             $('.arrow-keys').prop('disabled', false);
         }
     
